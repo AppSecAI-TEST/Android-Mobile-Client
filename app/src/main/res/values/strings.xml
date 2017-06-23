@@ -13,6 +13,8 @@
     <string name="action_home">Home</string>
     <string name="action_settings">Settings</string>
     <string name="generic_warning">Warning!</string>
+    <string name="generic_manual_entry">Manual Entry</string>
+    <string name="generic_erase_redo">Erase and Re-Do</string>
 
     //Database Schema Names
     <string name="db_first_name">first_name</string>
@@ -155,14 +157,8 @@
     <string name="visit_summary_button_download">Download from doctor</string>
     <string name="name_button_download">button_download</string>
 
-
-    //Diagnostic Tests Screen
-    <string name="title_activity_diagnostic_tests_list">Choose a Diagnostic Test</string>
-
-
     //Patient Detail Screen
     <string name="header_patient_detail">Patient Information</string>
-    <string name="button_history">Patient History</string>
     <string name="title_activity_patient_detail">Patient Detail</string>
     <string name="header_medical_history">History</string>
     <string name="button_new_visit">Start New Visit</string>
@@ -176,32 +172,16 @@
     <string name="row_address">Address</string>
     <string name="row_phone_number">Phone Number</string>
     <string name="row_open_visit">Click to open visit</string>
+
+    //Settings Screen
     <string name="title_activity_settings">Settings</string>
 
     <!-- Strings related to Settings -->
 
     <!-- Example General settings -->
     <string name="pref_header_general">General</string>
-
-    <string name="pref_title_social_recommendations">Enable social recommendations</string>
-    <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message
-        history
-    </string>
-
     <string name="pref_title_display_name">Display name</string>
     <string name="pref_default_display_name">John Smith</string>
-
-    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
-    <string-array name="pref_example_list_titles">
-        <item>Always</item>
-        <item>When possible</item>
-        <item>Never</item>
-    </string-array>
-    <string-array name="pref_example_list_values">
-        <item>1</item>
-        <item>0</item>
-        <item>-1</item>
-    </string-array>
 
     <!-- Example settings for Data & Sync -->
     <string name="pref_header_data_sync">Data &amp; sync</string>
@@ -313,7 +293,7 @@
         <item>Wisconsin</item>
         <item>Wyoming</item>
     </string-array>
-    <string name="title_activity_setup">SetupActivity</string>
+    <string name="title_activity_setup">Intelehealth Setup</string>
 
     <string name="title_activity_camera">Camera Activity</string>
     <string name="title_activity_today_patient">"Today's Patients"</string>\
@@ -322,8 +302,6 @@
 
     <!--Setup Activity-->
     <string name="setup_internet">A strong Internet connection is required for setup.</string>
-    <string name="generic_manual_entry">Manual Entry</string>
-    <string name="generic_erase_redo">Erase and Re-Do</string>
     <string name="visit_summary_edit_vitals">You can re-do the vitals from the vitals screen</string>
 
     //Camera Permissions

@@ -81,10 +81,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="io.intelehealth.client.activities.home_activity.HomeActivity" />
         </activity>
-        <activity
-            android:name=".activities.diagnostics_selection_test_activity.DiagnosticTestsSelectionActivity"
-            android:label="@string/title_activity_diagnostic_tests_list"
-            android:theme="@style/AppTheme.NoActionBar" />
 
         <service
             android:name=".services.ClientService"
