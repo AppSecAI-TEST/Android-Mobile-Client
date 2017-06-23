@@ -45,19 +45,10 @@
         <activity
             android:name=".activities.login_activity.LoginActivity"
             android:label="@string/title_activity_login" />
-        <activity
-            android:name=".activities.active_patient_activity.ActivePatientActivity"
-            android:label="@string/title_activity_active_patient"
-            android:parentActivityName=".activities.home_activity.HomeActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="io.intelehealth.client.activities.home_activity.HomeActivity" />
-        </activity>
+
         <activity
             android:name=".activities.patient_detail_activity.PatientDetailActivity"
             android:label="@string/title_activity_patient_detail"
-            android:parentActivityName=".activities.active_patient_activity.ActivePatientActivity"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
@@ -138,7 +129,7 @@
 
         <activity
             android:name=".activities.complaint_node_activity.ComplaintNodeActivity"
-            android:label="@string/title_activity_complaint_node"
+            android:label="@string/title_activity_complaint_select"
             android:parentActivityName=".activities.identification_activity.IdentificationActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -151,7 +142,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activities.past_medical_history_activity.PastMedicalHistoryActivity"
-            android:label="@string/title_activity_patient_history"
+            android:label="@string/title_activity_past_medical_history"
             android:parentActivityName=".activities.question_node_activity.QuestionNodeActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
